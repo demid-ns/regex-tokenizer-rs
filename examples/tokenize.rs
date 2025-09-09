@@ -2,7 +2,7 @@ use regex_tokenizer::RegexTokenizer;
 
 fn main() {
     let text = "It's state-of-the-art! The price is $3.14... Really?! Time: 12:30.";
-    
+
     // Pattern explanation:
     // [a-zA-Z0-9]+(?:[-.:'][a-zA-Z0-9]+)* - Words with optional internal punctuation (hyphens, periods, colons, apostrophes)
     // |[.!?]+                             - Multiple punctuation marks (periods, exclamation marks, question marks)
@@ -13,7 +13,7 @@ fn main() {
     let tokens = regex_tokenizer.tokenize(text);
 
     println!("{:?}", tokens);
-    
+
     // Expected output:
     // [
     //     Token { text: "It's", start: 0, end: 4 },
