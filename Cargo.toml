@@ -1,0 +1,14 @@
+[package]
+name = "regex-tokenizer"
+version = "1.0.0"
+edition = "2024"
+description = "A simple regex tokenizer created for learning Rust - not intended for practical use"
+license = "MIT"
+authors = ["https://github.com/demid-ns"]
+readme = "README.md"
+repository = "https://github.com/demid-ns/regex-tokenizer-rs"
+keywords = ["tokenizer", "learning", "rust", "regex"]
+categories = ["text-processing"]
+
+[dependencies]
+regex = "1.11.2"
