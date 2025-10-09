@@ -11,4 +11,4 @@ keywords = ["tokenizer", "learning", "rust", "regex"]
 categories = ["text-processing"]
 
 [dependencies]
-regex = "1.11.2"
+regex = "1.11.3"
